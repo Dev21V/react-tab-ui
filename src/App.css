@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.modal {
+  background: #efefef;
+  width: 400px;
+  height: 300px;
+  padding: 10px auto;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+  color: black;
+}
+
+.tab-ui {
+  background: #efefef;
+  color: violet;
+  padding: 20px;
+}
+.tab-ui .tab-group {
+  border: 1px solid #ccc;
+  display: flex;
+}
+.tab-ui .tab-group a {
+  width: 95px;
+  background: #ddd;
+  padding: 4px 8px;
+}
+.tab-ui .tab-group a:focus {
+  color: blue;
+  background: green;
+}
+.tab-ui .tab-group a:hover {
+  background-color: #fff;
+}
+
+.tab-contents {
+  border: 2px solid #999;
+  padding: 1rem;
+  width: 300px;
+}
+.tab-contents h1 {
+  margin: 4px;
+}/*# sourceMappingURL=App.css.map */
